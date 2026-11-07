@@ -1,0 +1,11 @@
+[package]
+name = "personal_work_env"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.37"
+egui = "0.37"
+rspotify = { version = "0.16", features = ["client-reqwest", "env-file", "cli"] }
+tokio = { version = "1.0", features = ["full"] }
+dotenvy = "0.15"
